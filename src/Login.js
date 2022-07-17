@@ -24,7 +24,7 @@ const Login=()=>{
             <img className="w-1/3" src="/images/login.svg" alt="login.svg" style={{position:'absolute',bottom:'0px',right:'0px'}}/>
             <img className="w-1/3" src="/images/loginwave.svg"  alt="loginwave.svg" style={{position:'absolute',top:'0px',right:'0px'}}/>
             <img className="w-20 h-20" src="/images/logo.svg" alt="logo" style={{position:'absolute',top:'0px',left:'0px'}}/>
-            <div className="flex flex-col items-center justify-center w-full md:w-full md:items-center mx-5 px-5" style={{height:'100vh'}}>
+            <div className="flex flex-col justify-center w-2/5 md:w-full md:items-center px-5" style={{height:'100vh'}}>
                 <p className="text-xl">Welcome back to </p>
                 <p className="text-xl">Skate!!!</p>
                 <button className="text-white bg-[#4F65F6] px-3 py-2 my-3" onClick={handleGoogleSignIn}>Sign In With Google</button>
